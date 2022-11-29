@@ -216,7 +216,7 @@ const imageToNFT = async (e) => {
        }
       {/*Mintカウンタ*/}      
       <div>
-      これまでにMintされた数：{number}/{max} 　
+      Mintされた数：{number}/{max} 　
       <Button variant="contained" onClick={renderNFTCount} className="cta-button connect-wallet-button">
       更新
       </Button>
